@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+
+/* DESKTOP NAV BAR */
+.desktop-Nav{
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  background-color: beige;
+}
+
+.logo{
+  width: 10vw;
+}
+
+.desktop-Nav-Links{
+  display: flex;
+  width: 50vw;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.desktop-Nav-Links a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.services-List{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+  top: 5vh;
+}
+
+.services-List a{
+  text-decoration: none;
+  color:black ;
+}
+
+.services-List li{
+  list-style: none;
+}
+
+
+.request-Quote{
+  width: 7vw;
+  height: 3vh;
+  margin: auto;
+}
